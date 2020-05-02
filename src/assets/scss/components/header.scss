@@ -1,0 +1,51 @@
+header{
+    
+    a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+    
+    .nav > li > a:focus, .nav > li > a:hover {
+        text-decoration: none;
+        background-color: transparent !important;    
+    }
+    
+    .nav-item {
+            font-size: 1.8rem;
+            background-color: transparent !important;
+            position: relative;
+            margin: 0 18px;
+            font-weight: 500;
+            transition: all 0.3s ease-in-out; 
+    }
+    
+    .nav-item a:hover {
+        color: yellow;
+    }
+
+    .navbar{
+        padding: 15px 0px;
+        background-color: transparent;
+        position: fixed;
+        width: 100%;
+        z-index: 1024;
+        transition: all 0.3s ease-in-out;
+
+        &.affix{
+            position: fixed;
+            background-color: $white;
+            -webkit-box-shadow: 0px 0px 18px 1px rgba(black, 0.1);
+            box-shadow: 0px 0px 18px 1px rgba(black, 0.1);
+            
+            a {
+                color: black;
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: red;
+            }
+
+        }
+    }
+}
