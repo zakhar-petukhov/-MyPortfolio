@@ -7,7 +7,7 @@
                         <p>
                             <b-col md="5" data-aos="slide-right" data-aos-duration="500">
                                 <div class="profile p-2 border rounded">
-                                    <img src="../assets/profile/avatar.jpg" class="img-fluid rounded" alt="">
+                                    <img src="../assets/images/profile/avatar.jpg" class="img-fluid rounded" alt="">
                                 </div>
                             </b-col>
                             <b-col md="7" data-aos="slide-left" data-aos-duration="600">
@@ -29,13 +29,26 @@
                                 <b-row class="information">
                                     <b-col cols="auto">
                                         <p>
-                                            <font-awesome-icon icon="phone" class="mr-2"></font-awesome-icon> <a class="text-dark" href="tel:+79313149331"><strong>+79313149331</strong></a>
+                                            <font-awesome-icon icon="phone" class="mr-2"></font-awesome-icon> 
+                                                    <a class="text-dark" href="tel:+79313149331"><strong>+79313149331</strong></a>
                                         </p>
                                     </b-col>
                                     <b-col cols="auto">
                                         <p>
-                                            <font-awesome-icon icon="envelope" class="mr-2"></font-awesome-icon> <a class="text-dark" href="mailto:zakharpetukhov@protonmail.com"><strong>zakharpetukhov@protonmail.com</strong></a>
+                                            <font-awesome-icon icon="envelope" class="mr-2"></font-awesome-icon> 
+                                                     <a class="text-dark" href="mailto:zakharpetukhov@protonmail.com"><strong>zakharpetukhov@protonmail.com</strong></a>
                                         </p>
+                                    </b-col>
+                                    <b-col cols="auto">
+                                        <p>
+                                            <font-awesome-icon style="font-size: 15px" :icon="['fab', 'telegram']" ></font-awesome-icon> 
+                                                    <a class="text-dark" href="https://tele.click/mrDrike"><strong>@mrDrike</strong></a>
+                                        </p>
+                                    </b-col>
+                                    <b-col cols="auto">
+                                        
+                                        <a :href="publicPath + 'zakhar-petukhov_CV.pdf'" class="btn btn-danger btn-lg" target="_blank">
+                                                    <font-awesome-icon icon="download" class="mr-2"></font-awesome-icon>Download CV</a>     
                                     </b-col>
                                 </b-row>
                             </b-col>
@@ -45,7 +58,18 @@
             </b-row>
         </b-container>
     </section>
-</template>>
+</template>
+
+
+<script>
+export default {
+    data () {
+      return {
+        publicPath: process.env.BASE_URL
+      }
+    }
+}
+</script>>
 
 
 <style>

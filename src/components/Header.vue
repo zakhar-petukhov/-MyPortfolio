@@ -11,7 +11,7 @@
                             <a href="#skills" class="nav-link scrollactive-item">SKILLS</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#experiences" class="nav-link scrollactive-item">EXPERIENCES</a>
+                            <a href="#experience" class="nav-link scrollactive-item">EXPERIENCE</a>
                         </li>
                         <li class="nav-item">
                             <a href="#contact-me" class="nav-link scrollactive-item">CONTACT</a>
@@ -28,11 +28,13 @@
 <script>
 export default {
     name: 'Header',
+    
     data: function() {
         return {
             isAffix:false
         };
     },
+
     methods: {
         scrolling: function() {
             if ( this.$refs.navbarAffix.offsetTop - window.scrollY <= -100) {

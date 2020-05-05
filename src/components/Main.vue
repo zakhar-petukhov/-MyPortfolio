@@ -7,7 +7,7 @@
                     <h1 class="mb-0 text-uppercase font-weight-bold" data-aos="fade-down" data-aos-duration="500" data-aos-offset="500">
                         Zakhar <span :style='{ color: "yellow" }'>Petukhov</span>
                     </h1>
-                    <h2 class="text-uppercase" data-aos="fade-down" data-aos-duration="500" data-aos-offset="500"><strong>Backend Developer</strong></h2>
+                    <h2 class="mb-0 text-uppercase" data-aos="fade-down" data-aos-duration="500" data-aos-offset="500"><strong>Backend Developer</strong></h2>
                     <h3 v-bind:style='{ color: "white" }' data-aos="fade-down" >
                     Hey! Here you can find more information about me, <br> 
                     my experiences and skills. <br>
