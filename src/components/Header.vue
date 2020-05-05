@@ -14,7 +14,7 @@
                             <a href="#experiences" class="nav-link scrollactive-item">EXPERIENCES</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#contact-me" class="nav-link">CONTACT</a>
+                            <a href="#contact-me" class="nav-link scrollactive-item">CONTACT</a>
                         </li>
                     </scrollactive>
                     

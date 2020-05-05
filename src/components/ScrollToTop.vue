@@ -1,5 +1,5 @@
 <template>
-    <a id="button" @click="topFunction" @scroll="scrollFunction"></a>
+    <a id="button"  class="scrollactive-item" @click="topFunction" @scroll="scrollFunction"></a>
 </template>
 
 
@@ -9,7 +9,7 @@ export default {
       handleScroll: function () {
             var mybutton = document.getElementById("button");
 
-            if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
                 mybutton.style.display = "block";
 
             } else {
@@ -44,6 +44,7 @@ html {
 
 
 #button {
+  font-size: 35px;
   display: none;
   background-color: red;
   width: 50px;
@@ -52,7 +53,7 @@ html {
   border-radius: 4px;
   margin: 30px;
   position: fixed;
-  bottom: 30px;
+  bottom: 70px;
   right: 30px;
   transition: background-color .3s;
   z-index: 1000;
@@ -72,9 +73,7 @@ html {
   font-family: FontAwesome;
   font-weight: normal;
   font-style: normal;
-  font-size: 2em;
   line-height: 50px;
   color: #fff;
 }
 </style>
-

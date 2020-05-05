@@ -8,7 +8,7 @@
                         Zakhar <span :style='{ color: "yellow" }'>Petukhov</span>
                     </h1>
                     <h2 class="text-uppercase" data-aos="fade-down" data-aos-duration="500" data-aos-offset="500"><strong>Backend Developer</strong></h2>
-                    <h3 v-bind:style='{ color: "white" }' data-aos="fade-up" data-aos-duration="500" data-aos-offset="500">
+                    <h3 v-bind:style='{ color: "white" }' data-aos="fade-down" >
                     Hey! Here you can find more information about me, <br> 
                     my experiences and skills. <br>
                     If you like me, download my resume and contact me quickly. 
@@ -37,7 +37,7 @@
             </b-row>
         </b-container>
 	</section>
-</template>>
+</template>
 
 
 <style>
