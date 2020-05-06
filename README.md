@@ -1,24 +1,7 @@
-# my_profile
+# Portfolio
 
-## Project setup
-```
-npm install
-```
+### I created a portfolio to immerse myself in VUE in more detail. 
+### It will be improved and supplemented in the future. Keep an eye on it.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![Portfolio](https://i.ibb.co/zGMgmrX/2020-05-06-09-52-40.jpg)
