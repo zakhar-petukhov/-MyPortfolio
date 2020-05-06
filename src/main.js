@@ -19,10 +19,6 @@ Vue.config.productionTip = false
 
 new Vue({
   created () {
-    AOS.init({
-      disable: 'mobile'
-    });
-    
     AOS.init();
   },
   render: h => h(App),

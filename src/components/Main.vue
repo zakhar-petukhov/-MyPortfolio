@@ -11,7 +11,7 @@
                     <h3 v-bind:style='{ color: "white" }' data-aos="fade-down" >
                     Hey! Here you can find more information about me, <br> 
                     my experiences and skills. <br>
-                    If you like me, download my resume and contact me quickly. 
+                    If you like my professional skills, feel free to contact me any time. 
                     </h3>
                 
                     <b-row align-h="center" class="pt-3">
