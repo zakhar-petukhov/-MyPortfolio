@@ -4,10 +4,10 @@
             <b-row align-h="center">
                 <b-col lg="8"  class="text-center text-white">
 
-                    <h1 class="mb-0 text-uppercase font-weight-bold" data-aos="fade-down" data-aos-duration="500" data-aos-offset="500">
+                    <h1 class="mb-0 text-uppercase font-weight-bold" data-aos="fade-down" data-aos-duration="300">
                         Zakhar <span :style='{ color: "yellow" }'>Petukhov</span>
                     </h1>
-                    <h2 class="mb-0 text-uppercase" data-aos="fade-down" data-aos-duration="500" data-aos-offset="500"><strong>Backend Developer</strong></h2>
+                    <h2 class="mb-0 text-uppercase" data-aos="fade-down" data-aos-duration="300"><strong>Backend Developer</strong></h2>
                     <h3 v-bind:style='{ color: "white" }' data-aos="fade-down" >
                     Hey! Here you can find more information about me, <br> 
                     my experiences and skills. <br>
@@ -17,7 +17,7 @@
                     <b-row align-h="center" class="pt-3">
                         
                         <b-col cols="auto">
-                            <div class="form-group" data-aos="fade-left" data-aos-duration="5">
+                            <div class="form-group" data-aos="fade-left" data-aos-duration="300">
                                 <a href="https://github.com/zakhar-petukhov" class="btn btn-secondary btn-lg" target="_blank">
                                     <font-awesome-icon :icon="['fab', 'github']" class="mr-1"></font-awesome-icon> Github
                                 </a>
