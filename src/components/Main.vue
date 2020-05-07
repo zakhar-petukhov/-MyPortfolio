@@ -10,7 +10,7 @@
                     <h2 class="mb-0 text-uppercase" data-aos="fade-down" data-aos-duration="300"><strong>Backend Developer</strong></h2>
                     <h3 v-bind:style='{ color: "white" }' data-aos="fade-down" >
                     Hey! Here you can find more information about me, <br> 
-                    my experiences and skills. <br>
+                    my experience and skills. <br>
                     If you like my professional skills, feel free to contact me any time. 
                     </h3>
                 
