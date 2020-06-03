@@ -21,7 +21,7 @@
                 </b-col>
                 <b-col cols="auto">
                     <h4 class="mb-1">
-                        <a href="https://tele.click/mrDrike" target="_blank" class="text-white">
+                        <a href="https://tele.click/zakhar_petukhov" target="_blank" class="text-white">
                             <font-awesome-icon style="font-size: 15px" :icon="['fab', 'telegram']" ></font-awesome-icon>
                         </a>
                     </h4>

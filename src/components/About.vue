@@ -42,7 +42,7 @@
                                     <b-col cols="auto">
                                         <p>
                                             <font-awesome-icon style="font-size: 15px" :icon="['fab', 'telegram']" ></font-awesome-icon> 
-                                                    <a class="text-dark" href="https://tele.click/mrDrike"><strong>@mrDrike</strong></a>
+                                                    <a class="text-dark" href="https://tele.click/zakhar_petukhov"><strong>@zakhar_petukhov</strong></a>
                                         </p>
                                     </b-col>
                                     <b-col cols="auto">
