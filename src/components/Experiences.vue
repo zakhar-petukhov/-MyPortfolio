@@ -13,6 +13,7 @@
                                     <h5><span>{{item.date_action_begin}} - {{item.date_action_end}}</span></h5>
                                     <h5><span>{{item.place}}</span></h5>
                                     <h3 :style='{ color: "black", fontWeight: "bold"}'>{{item.job_title}}</h3>
+                                    <h3>{{item.description_company}}</h3>
                                     <h3>
                                         <ul>
                                             <li v-for="index in item.description" :key=index>{{index}}</li>

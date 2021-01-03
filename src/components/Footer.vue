@@ -2,7 +2,7 @@
     <footer ref="footer">
         <b-container>
                   <span class="footer_date text-white">
-                Zakhar Petukhov 2020 | Made with <font-awesome-icon :icon="['fas', 'heart']" class="text-danger"></font-awesome-icon>
+                Zakhar Petukhov 2021 | Made with <font-awesome-icon :icon="['fas', 'heart']" class="text-danger"></font-awesome-icon>
                   </span>
             <b-form-row class="justify-content-center">
                 <b-col cols="auto">

@@ -1,33 +1,51 @@
 [
-    { 
-        "id": 1,
-        "company_name": "Freelance",
-        "job_title": "python backend developer",
-        "place": "St. Petersburg, Russian Federation",
-        "date_action_begin": "Dec. 2018",
-        "date_action_end": "Jul. 2019",
-        "description": [
-            "create telegram bot",
-            "third-party API integration (Coinpayments, VK, Binance)",
-            "administration server"
-        ]
-    },
-
-    { 
-        "id": 2,
-        "company_name": "ALLSAFE, Inc.",
-        "job_title": "python backend developer",
-        "place": "St. Petersburg, Russian Federation",
-        "date_action_begin": "Jul. 2019",
-        "date_action_end": "to present",
-        "description": [
-            "third-party API integration insurance companies",
-            "creating own microservices (DRF)",
-            "code testing",
-            "software automation using Docker",
-            "application creation from scratch",
-            "administration server",
-            "customer negotiations"
-        ]
-    }
+  {
+    "id": 1,
+    "company_name": "Freelance",
+    "job_title": "python backend developer",
+    "place": "St. Petersburg, Russian Federation",
+    "date_action_begin": "Dec. 2018",
+    "date_action_end": "Jul. 2019",
+    "description": [
+      "create telegram bot",
+      "third-party API integration (Coinpayments, VK, Binance)",
+      "administration server"
+    ]
+  },
+  {
+    "id": 2,
+    "company_name": "ALLSAFE, Inc.",
+    "job_title": "python backend developer",
+    "place": "St. Petersburg, Russian Federation",
+    "date_action_begin": "Jul. 2019",
+    "date_action_end": "Oct. 2020",
+    "description_company": "The company is involved in outsourcing. There is a large project (an aggregator of insurance companies), we also conduct other projects, a site for models, restaurant service.",
+    "description": [
+      "third-party API integration insurance companies",
+      "creating an application from scratch on DRF",
+      "software automation using Docker",
+      "administration server",
+      "code testing",
+      "customer negotiations"
+    ]
+  },
+  {
+    "id": 3,
+    "company_name": "Teachbase",
+    "job_title": "python backend developer",
+    "place": "St. Petersburg, Russian Federation",
+    "date_action_begin": "Oct. 2020",
+    "date_action_end": "to present",
+    "description_company": "Teachbase - a platform for organizing distance learning, creating courses, tests and webinars. Teachbase - is at the core of third-party projects.",
+    "description": [
+      "application architecture development",
+      "API integration with Teachbase",
+      "creating an application from scratch on DRF",
+      "software automation using Docker",
+      "CI/CD development",
+      "code review",
+      "administration server",
+      "code testing"
+    ]
+  }
 ]
